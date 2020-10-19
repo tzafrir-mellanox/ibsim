@@ -2,7 +2,9 @@ Source: ibsim
 Section: net
 Priority: extra
 Maintainer: Tzafrir Cohen <mellanox@cohens.org.il>
-Build-Depends: debhelper (>= 9), libibumad-dev, libibmad-dev
+Build-Depends: debhelper (>= 9),
+ libibumad-dev | libibumad-devel,
+ libibmad-dev  | libibmad-devel,
 Standards-Version: 4.13
 Homepage: https://github.com/linux-rdma/ibsim
 
